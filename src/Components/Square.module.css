@@ -1,0 +1,10 @@
+.button {
+  background: #fff;
+  height: 30px;
+  text-align: center;
+  width: 30px;
+}
+
+.dark {
+  background: #777;
+}

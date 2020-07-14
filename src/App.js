@@ -1,13 +1,12 @@
 import React from 'react';
-import Board from './Board';
-import './app.css';
+import Board from './Containers/Board';
+import './App.css';
 
 const App = () => {
   return (
     <div className='game'>
-      <div className='game-board'>
-        <Board />
-      </div>
+      <h2 className='title'>Battleship</h2>
+      <Board />
     </div>
   );
 };
